@@ -114,8 +114,8 @@ values, namely:
     hooks.strictcommit.ticketformat # default: '\([A-Z]\{1,\}-[0-9]\{1,\}\(,\([A-Z]\{1,\}-[0-9]\{1,\}\)\)\{0,\}\).*'
 
 
-    hooks.strictcommit.rule4        # default: 72
-    hooks.strictcommit.rule9        # default: 72
+    hooks.strictcommit.rule4.limit  # default: 72
+    hooks.strictcommit.rule9.limit  # default: 72
 ```
 
 ### Colors

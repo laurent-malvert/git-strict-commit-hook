@@ -97,8 +97,8 @@ set_environment() {
   #  ('[A-Z]+-[0-9]+(,([A-Z]+-[0-9]+))*)
   TICKET_PATTERN="$(get_config "ticketformat")"
 
-  RULE_4_LIMIT="$(get_config "rule4" "72")"
-  RULE_9_LIMIT=$(get_config "rule6" "72")
+  RULE_4_LIMIT="$(get_config "rule4.limit" "72")"
+  RULE_9_LIMIT=$(get_config "rule6.limit" "72")
 }
 
 
